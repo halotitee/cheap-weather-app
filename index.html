@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather App</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.js"
+            integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+            crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="app">
+        <h1>Weather App</h1>
+        <div class="main-app">
+            <form class="city-form">
+                <input type="text" id="autocomplete" class="city-input" placeholder="City Name">
+                <button type="submit" class="get-weather-button">Get Weather</button>
+            </form>
+            <div class="city-weather">
+
+            </div>
+        </div>
+    </div>
+
+
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyApT3HaoX7qWejBCbPbPFM-nyvxl2h3Fho&libraries=places"></script>
+    <script src="app.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+</body>
+</html>
